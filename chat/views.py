@@ -18,7 +18,7 @@ def chat_view(request):
             ai_message=ai_message
         )
 
-        return redirect("chat")
+        return redirect("/")
 
     # Load full chat history
     messages = ChatMessage.objects.all().order_by("timestamp")
