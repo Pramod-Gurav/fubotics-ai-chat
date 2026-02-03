@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# Database
+db.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Django static files
+/static/
+
+# VS Code settings
+.vscode/
